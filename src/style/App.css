@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@100, 200, 300, 400, 500, 600, 700, 800, 900;700&display=swap');
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Libre Baskerville', serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Libre Baskerville', serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Libre Baskerville', serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Libre Baskerville', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ConatctBackground{
+    background-image: linear-gradient(75deg,
+    rgba(0,0,0, 0.6),rgba(0,0,0, 0.4),
+    transparent),  linear-gradient(240deg,
+    rgba(0,0,0, 0.4),rgba(0,0,0, 0.5), transparent), url("../images/ringC.jpg");
+    background-size: contain;
+    height: fit-content;
+}
