@@ -10,12 +10,12 @@ export const Pad =styled.div`
 `
 
 export const ModalImage = styled.img`
-    min-width: 80%;
-    height: 79%;
+    max-width: 80%;
+    max-height: 79%;
     margin: 5px;
     border: 15px double black; 
     background: white;
-    object-fit: fill;
+    object-fit: cover;
 
     @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape){
         width: 80%;
