@@ -76,7 +76,7 @@ export const ReviewImage = styled.img`
     margin: 5px;
     border: 15px double black; 
     background: white;
-    object-fit: contain;
+    object-fit: cover;
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
         width: 90%;
