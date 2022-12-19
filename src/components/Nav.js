@@ -14,9 +14,9 @@ const Nav = () => {
     <Wrapper className="sizing">
         <Link to="/"><Logo src={logo} /></Link>
         <Link className="navBarLinks" to="/collection"><NavbarItems>Collection</NavbarItems></Link>
-        <a className="navBarLinks"  target="_blank" href="https://www.etsy.com/uk/shop/HeliosRingsLTD?ref=profile_header"><NavbarItems>Store</NavbarItems></a>
+        <a className="navBarLinks" href="https://www.etsy.com/uk/shop/HeliosRingsLTD?ref=profile_header"><NavbarItems>Store</NavbarItems></a>
         <Link className="navBarLinks" to="/contact"><NavbarItems>Contact</NavbarItems></Link>
-        <a target="_blank" href="https://www.instagram.com/helios_rings/"><Logo src={InstaLogo} /></a>
+        <a href="https://www.instagram.com/helios_rings/"><Logo src={InstaLogo} /></a>
     </Wrapper>
 );
 };
