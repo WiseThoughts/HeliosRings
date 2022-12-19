@@ -57,7 +57,7 @@ export const NavbarItems = styled.a`
 export const Logo = styled.img`
     display: flex;
     height: 40px;
-    border: 2px solid white;
+    outline: 2px solid white;
     border-radius: 50%;
 
 `
