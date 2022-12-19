@@ -3,8 +3,6 @@ import { Wrapper, NavbarItems, Logo, } from "../style/nav.styled";
 import React from "react";
 import "../style/nav.css";
 import logo from "../images/helios-logo-1.png";
-import InstaLogov1 from "../images/instagramlogowhite.png";
-import InstaLogov2 from "../images/instagramlogoblack.png";
 import InstaLogov3 from "../images/instagramlogoblackwhite.png";
 
 
@@ -26,3 +24,5 @@ const Nav = () => {
 export default Nav;
 
 //safe keeping: <Link className="navBarLinks" to="/"><NavbarItems>Home</NavbarItems></Link>
+// import InstaLogov1 from "../images/instagramlogowhite.png";
+// import InstaLogov2 from "../images/instagramlogoblack.png";
