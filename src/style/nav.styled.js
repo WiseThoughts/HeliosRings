@@ -15,6 +15,19 @@ export const Wrapper = styled.div`
 
 
     @media (max-device-width: 550px){
+        flex-direction: row;
+        width: auto;
+    }
+
+`;
+
+export const Wrapper2 = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    @media (max-device-width: 550px){
         flex-direction: column;
         width: auto;
     }
@@ -59,6 +72,7 @@ export const Logo = styled.img`
     height: 40px;
     outline: 2px solid white;
     border-radius: 50%;
+    margin: 10px;
 
 `
 

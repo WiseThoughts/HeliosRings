@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 import Ring2 from "../images/ringfive.jpg"
 import Ring3 from "../images/ringfour.jpg"
-import Ring4 from "../images/ringone.jpg"
+import Ring4 from "../images/ringtwo.jpg"
 import Ring5 from "../images/ringthree.jpg"
 import Ring6 from "../images/ringtwo.jpg"
 
@@ -37,7 +37,7 @@ function Home() {
         <RightSide>
         <div>
             <HomeHeader>Welcome to Helios Rings!</HomeHeader>
-            <HomeSubHeader>You're One stop shop for Custom one of a kind rings</HomeSubHeader>
+            <HomeSubHeader>Unique, Handcrafted, Excellence!</HomeSubHeader>
         </div>
 
         <div>

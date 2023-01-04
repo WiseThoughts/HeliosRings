@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Wrapper, NavbarItems, Logo, } from "../style/nav.styled";
+import { Wrapper, Wrapper2, NavbarItems, Logo, } from "../style/nav.styled";
 import React from "react";
 import "../style/nav.css";
 import logo from "../images/helios-logo-1.png";
@@ -13,9 +13,12 @@ const Nav = () => {
 
     <Wrapper className="sizing">
         <Link to="/"><Logo src={logo} /></Link>
+        <Wrapper2>
+        <Link className="navBarLinks" to="/"><NavbarItems>Home</NavbarItems></Link>
         <Link className="navBarLinks" to="/collection"><NavbarItems>Collection</NavbarItems></Link>
         <a className="navBarLinks" href="https://www.etsy.com/uk/shop/HeliosRingsLTD?ref=profile_header"><NavbarItems>Store</NavbarItems></a>
         <Link className="navBarLinks" to="/contact"><NavbarItems>Contact</NavbarItems></Link>
+        </Wrapper2>
         <a href="https://www.instagram.com/helios_rings/"><Logo src={InstaLogov3} /></a>
     </Wrapper>
 );
