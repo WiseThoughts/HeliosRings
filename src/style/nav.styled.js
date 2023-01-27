@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     border-top: 10px double white;
 
 
-    @media (max-device-width: 550px){
+    @media (max-device-width: 650px){
         flex-direction: row;
         width: auto;
     }
@@ -27,7 +27,7 @@ export const Wrapper2 = styled.div`
     align-items: center;
 
 
-    @media (max-device-width: 550px){
+    @media (max-device-width: 650px){
         flex-direction: column;
         width: auto;
     }
@@ -53,7 +53,7 @@ export const NavbarItems = styled.a`
         flex-direction: coloumn;
     }
 
-    @media (max-device-width: 550px){
+    @media (max-device-width: 650px){
         margin: 0px;
         padding: 0px;
     &hover {

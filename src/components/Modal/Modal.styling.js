@@ -37,12 +37,36 @@ export const ModalBox = styled.div`
     left: 2.75%;
   }
 
+  @media (min-device-width: 450px){
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    top: 7.5%;
+    left: 4.5%;
+  }
+
+  @media (min-device-width: 500px){
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    top: 5%;
+    left: 4.5%;
+  }
+
   @media (min-device-width: 600px){
     position: fixed;
     display: flex;
     flex-direction: row;
     width: 95%;
-    height: 75%;
+    height: 85%;
     border: 0.3rem solid black;
     border-radius: 0.5rem;
     top: 12.5%;
@@ -111,16 +135,21 @@ export const PicBox = styled.div`
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 424px){
     width: 100%;
-    height: 50%;
+    height: 55%;
   }
 
   @media only screen and (min-device-width: 425px){
     width: 100%;
-    height: 50%;
+    height: 55%;
+  }
+
+  @media only screen and (min-device-width: 510px){
+    width: 100%;
+    height: 60%;
   }
 
   @media only screen and (min-device-width: 600px){
-    width: 50%;
+    width: 70%;
     height: 100%;
   }
 
@@ -135,7 +164,7 @@ export const PicBox = styled.div`
   }
 
   @media only screen and (min-device-width: 1440px){
-    width: 70%;
+    width: 80%;
     height: 100%;
   }
 
@@ -169,7 +198,7 @@ export const TextBox = styled.div`
   }
 
   @media only screen and (min-device-width: 600px){
-    width: 50%;
+    width: 30%;
     height: 100%;
   }
 
@@ -267,33 +296,47 @@ export const RingDescription = styled.p`
   padding: 10px;
   font-weight: bold;
   width: 90%;
+  text-align: center;
+  margin-bottom: 15px;
 
-  @media only screen and (min-device-width: 320px) and (max-device-width: 424px){
-    font-size: 18px;
+  @media only screen and (min-device-width: 320px){
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  @media only screen and (min-device-width: 375px){
+    font-size: 22px;
+    margin-bottom: 0px;
   }
 
   @media only screen and (min-device-width: 425px){
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 0px;
   }
 
   @media only screen and (min-device-width: 600px){
     font-size: 20px;
+    margin-bottom: 0px;
   }
 
 
   @media only screen and (min-device-width: 768px){
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   @media only screen and (min-device-width: 1024px){
     font-size: 25px;
+    margin-bottom: 20px;
   }
 
   @media only screen and (min-device-width: 1440px){
     font-size: 25px;
+    margin-bottom: 20px;
   }
 
   @media only screen and (min-device-width: 1920px){
     font-size: 35px;
+    margin-bottom: 30px;
   }
 `
